@@ -1,5 +1,5 @@
 # bashrc-for-cmd
-An easy method to set user preferences, settings and command aliases in the windows command prompt analogous to `.bashrc` / `.bash_profile` in linux. People can add their own methods and settings to add funcitonality. The objective of the batch file is to provides a template for the same.
+An easy method to set command line parameters, user preferences, environment settings and aliases in the windows command prompt analogous to `.bashrc` / `.bash_profile` in linux. People can add their own settings to add funcitonality. The objective of the batch file is to provides a template for the same.
 
 
 ### Using this method you can:
