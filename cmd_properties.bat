@@ -1,7 +1,7 @@
 :: Welcome message (comment out if not necessary)
 @echo Welcome user!
 
-:: To prevent cmd from printing the following commands at startup
+:: Hide the report of following commands
 @echo off
 
 :: Launch command prompt at the specified default path
