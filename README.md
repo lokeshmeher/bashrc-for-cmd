@@ -14,6 +14,7 @@ Note:
 Method:
 
 Add a new key to the Windows Registry using "regedit" command at [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Command Processor\] with the following properties:
+
 1. value(Name) - AutoRun
 2. type - REG_EXPAND_SZ
 3. data - "C:\Users\username\Desktop\cmd_properties.bat"	(or wherever the file is saved)
