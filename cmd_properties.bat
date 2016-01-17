@@ -4,8 +4,8 @@
 :: To prevent cmd from printing the following commands at startup
 @echo off
 
-:: Uncomment this to launch the command prompt at the specified path
-:: cd "C:\Users\username\Desktop"
+:: Always launch the command prompt at the specified path
+cd "C:\Users\username\Desktop"
 
 :: Aliases
 doskey ls = dir /b
@@ -16,4 +16,4 @@ doskey gcc = gcc -std=c11 -Wall -pedantic
 doskey chrome = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 
 :: Environment variables
-setx NEWVAR=SOMETHING
+setx %NEWVAR%=SOMETHING
