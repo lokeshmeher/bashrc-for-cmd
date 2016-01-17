@@ -19,3 +19,6 @@ doskey chrome = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 
 :: Environment variables
 setx %NEWVAR%=SOMETHING
+
+:: control flow commands: for, if, goto, call, pause.
+:: to know more type 'help <command>' for more info.
