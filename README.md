@@ -12,6 +12,7 @@ Note:
 2. This method ensures that the changes persist no matter where you launch the command prompt from.
 
 Method:
+
 Add a new key to the Windows Registry using "regedit" command at [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Command Processor\] with the following properties:
 1. value(Name) - AutoRun
 2. type - REG_EXPAND_SZ
