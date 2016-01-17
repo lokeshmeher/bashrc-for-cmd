@@ -9,7 +9,7 @@ An easy method to set user preferences and command aliases for the windows comma
 
 ### Method:
 
-Add a new key to the Windows Registry using "regedit" command at [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Command Processor\] with the following properties:
+Add a new key to the Windows Registry using `regedit` command at `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Command Processor` with the following properties:
 
 1. value(Name) - `AutoRun`
 2. type - `REG_EXPAND_SZ`
