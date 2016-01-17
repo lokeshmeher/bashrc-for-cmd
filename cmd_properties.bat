@@ -4,7 +4,7 @@
 :: To prevent cmd from printing the following commands at startup
 @echo off
 
-:: Always launch the command prompt at the specified path
+:: Launch command prompt at the specified default path
 cd "C:\Users\username\Desktop"
 
 :: Aliases
