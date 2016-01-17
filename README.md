@@ -1,7 +1,7 @@
 # windows-env
-An easy method to set user preferences and command aliases for the windows command prompt just like '.bashrc' / '.bash_profile' in linux by storing all the settings in a batch/cmd file and editing registry to recognize it.
+An easy method to set user preferences and command aliases for the windows command prompt just like `.bashrc` / `.bash_profile` in linux by storing all the settings in a `.batch`/`.cmd` file and editing registry to recognize it.
 
-#### Using this method you can:
+## Using this method you can:
 
 1. Set aliases for different commands.
 2. Run compilers or other executables with whatever options you want without specifying those options everytime you run the program.
