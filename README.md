@@ -22,3 +22,6 @@ An easy method to set user preferences, settings and command aliases in the wind
 1. The file can be saved with whatever name you want but the file type or the file extension should be `.bat` or `.cmd`.
 2. If the file is moved to a different location, you have to edit the key data in registry to reflect the changes.
 3. This method ensures that the changes persist no matter where you launch the command prompt from and even after closing the current session.
+
+**Additional Reources**
+[Batch file commands](http://academic.evergreen.edu/projects/biophysics/technotes/program/batch.htm)
