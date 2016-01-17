@@ -6,6 +6,7 @@ Using this method you can:
 2. Run compilers or other executables with whatever options you want without specifying those options everytime you run the program.
 
 Note:
+
 1. The file can be saved with whatever name you want but the file type or the file extension should be ".bat" or ".cmd".
 2. This method ensures that the changes persist no matter where you launch the command prompt from.
 
