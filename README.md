@@ -5,6 +5,7 @@ Using this method you can:
 
 1. Set aliases for different commands.
 2. Run compilers or other executables with whatever options you want without specifying those options everytime you run the program.
+3. Launch different apps and programs using aliases
 
 Note:
 
