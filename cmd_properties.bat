@@ -9,8 +9,8 @@
 
 :: Aliases:
 doskey ls = dir /b
-
 doskey g++ = g++ -std=c++11 -Wall -pedantic
-
 doskey gcc = gcc -std=c11 -Wall -pedantic
 
+:: Programs
+doskey chrome = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
