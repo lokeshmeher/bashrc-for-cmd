@@ -9,6 +9,7 @@ cd "C:\Users\username\Desktop"
 
 :: Aliases
 doskey ls = dir /b
+doskey cls = clear
 doskey .. = cd ..
 doskey g++ = g++ -std=c++11 -Wall -pedantic
 doskey gcc = gcc -std=c11 -Wall -pedantic
