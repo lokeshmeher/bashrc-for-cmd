@@ -17,8 +17,9 @@ doskey gcc = @echo Compiling using -std=c11 -Wall -pedantic $T gcc -std=c11 -Wal
 doskey chrome = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 
 :: Environment variables
-:: set Path = "%Path%;path\to\new\dir"
-:: set USER = John
+:: set NEWVAR = SOMETHING
+set Path = "%Path%;path\to\new\dir"
+set USER = John
 
 :: control flow commands: for, if, goto, call, pause.
 :: to know more type 'help <command>' for more info.
