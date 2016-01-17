@@ -8,11 +8,11 @@
 cd "C:\Users\username\Desktop"
 
 :: Aliases
-doskey ls = dir /b
+doskey ls = dir
 doskey cls = clear
 doskey .. = cd ..
-doskey g++ = g++ -std=c++11 -Wall -pedantic
-doskey gcc = gcc -std=c11 -Wall -pedantic
+doskey g++ = @echo Compiling using -std=c++11 -Wall -pedantic $T g++ -std=c++11 -Wall -pedantic $*
+doskey gcc = @echo Compiling using -std=c11 -Wall -pedantic $T gcc -std=c11 -Wall -pedantic $*
 
 :: Programs
 doskey chrome = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
