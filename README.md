@@ -11,12 +11,12 @@ An easy method to set user preferences, settings and command aliases in the wind
 
 ### Method:
 
-Add a new key to the Windows Registry using `regedit` command at `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Command Processor` with the following properties:
+- Download the `cmd_properties.bat` file and store it in a secure location like `C:\Users\username\AppData`.
+- Add a new key to the Windows Registry using `regedit` command at `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Command Processor` with the following properties:
 
 1. value(Name) - `AutoRun`
 2. type - `REG_EXPAND_SZ`
-3. data - `"C:\Users\username\Desktop\cmd_properties.bat"`	(or wherever the file is saved)
-
+3. data - `"C:\Users\username\AppData\cmd_properties.bat"`	(or wherever the file is saved)
 
 ### Note:
 
