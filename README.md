@@ -1,12 +1,13 @@
 # windows-env
-An easy method to set user preferences, settings and command aliases in the windows command prompt analogous to `.bashrc` / `.bash_profile` in linux. People can add their own methods and settings to add funcitonality. The batch file just provides a template for the same.
+An easy method to set user preferences, settings and command aliases in the windows command prompt analogous to `.bashrc` / `.bash_profile` in linux. People can add their own methods and settings to add funcitonality. The objective of the batch file is to provides a template for the same.
 
 
 ### Using this method you can:
 
 1. Set aliases for different commands.
 2. Run commands like `gcc`/`g++` or other executables with whatever options you want without specifying those options everytime you run the program.
-3. Launch different apps and programs using aliases
+3. Launch different apps and programs using aliases.
+4. Set environment variables.
 
 ### Method:
 
