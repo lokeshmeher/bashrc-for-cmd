@@ -7,7 +7,7 @@
 :: Uncomment this to launch the command prompt at the specified path
 :: cd "C:\Users\username\Desktop"
 
-:: Aliases:
+:: Aliases
 doskey ls = dir /b
 doskey g++ = g++ -std=c++11 -Wall -pedantic
 doskey gcc = gcc -std=c11 -Wall -pedantic
