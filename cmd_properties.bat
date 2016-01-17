@@ -14,3 +14,6 @@ doskey gcc = gcc -std=c11 -Wall -pedantic
 
 :: Programs
 doskey chrome = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+
+:: Environment variables
+setx NEWVAR=SOMETHING
