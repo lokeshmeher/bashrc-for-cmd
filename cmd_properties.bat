@@ -8,7 +8,7 @@
 cd "C:\Users\username\Desktop"
 
 :: Aliases
-doskey ls = dir
+doskey ls = dir /w /o:ne $*
 doskey cls = clear
 doskey .. = cd ..
 doskey g++ = @echo Compiling using -std=c++11 -Wall -pedantic $T g++ -std=c++11 -Wall -pedantic $*
