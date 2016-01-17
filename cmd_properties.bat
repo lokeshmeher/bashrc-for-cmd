@@ -1,17 +1,16 @@
-:: Add this file to Registry using regedit command
-:: at [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Command Processor\]
-:: with the following properties:
-:: value(Name)-	AutoRun
-:: type-		REG_EXPAND_SZ
-:: data-		"C:\Users\username\Desktop\cmd_properties.bat"	(or wherever the file is saved)
+:: Welcome message (comment out if not necessary)
+@echo Welcome user!
 
-
-:: To prevent cmd from printing all the following commands at startup:
-@ECHO off
+:: To prevent cmd from printing the following commands at startup
+@echo off
 
 :: Uncomment this to launch the command prompt at the specified path
-:: cd "C:\Users\username"
+:: cd "C:\Users\username\Desktop"
 
 :: Aliases:
+doskey ls = dir /b
+
 doskey g++ = g++ -std=c++11 -Wall -pedantic
-doskey ls = dir
+
+doskey gcc = gcc -std=c11 -Wall -pedantic
+
