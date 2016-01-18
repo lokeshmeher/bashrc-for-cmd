@@ -12,6 +12,7 @@ cd "C:\Users\username\Desktop"
 ::--------
 doskey ls = dir /d /o:gne $*
 doskey clear = cls
+doskey photos = cd "C:\Users\username\Pictures" $T dir /d /o:gne $*
 doskey g++ = @echo Compiling using -std=c++11 -Wall -pedantic $T g++ -std=c++11 -Wall -pedantic $*
 doskey gcc = @echo Compiling using -std=c11 -Wall -pedantic $T gcc -std=c11 -Wall -pedantic $*
 
