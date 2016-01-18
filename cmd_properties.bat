@@ -10,11 +10,11 @@ cd "C:\Users\username\Desktop"
 :://///////////////////////////////////////////////////////////////////////////
 :: ALIASES:
 ::--------
-doskey ls = dir /d /o:gne $*
-doskey clear = cls
-doskey photos = cd "C:\Users\username\Pictures" $T dir /d /o:gne $*
-doskey g++ = @echo Compiling using -std=c++11 -Wall -pedantic $T g++ -std=c++11 -Wall -pedantic $*
-doskey gcc = @echo Compiling using -std=c11 -Wall -pedantic $T gcc -std=c11 -Wall -pedantic $*
+doskey ls      = dir /d /o:gne $*
+doskey clear   = cls
+doskey photos  = cd "C:\Users\username\Pictures" $T dir /d /o:gne $*
+doskey g++     = @echo --- Compiling using -std=c++11 -Wall -pedantic --- $T g++ -std=c++11 -Wall -pedantic $*
+doskey gcc     = @echo --- Compiling using -std=c11 -Wall -pedantic --- $T gcc -std=c11 -Wall -pedantic $*
 
 :://///////////////////////////////////////////////////////////////////////////
 :: PROGRAMS:
@@ -22,7 +22,7 @@ doskey gcc = @echo Compiling using -std=c11 -Wall -pedantic $T gcc -std=c11 -Wal
 doskey chrome = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 
 :://///////////////////////////////////////////////////////////////////////////
-:: ENVIRONMENT VARIABLES:
+:: ENVIRONMENT VARIABLES: (Applied each time cmd is run)
 ::----------------------
 set Path = "%Path%;path\to\new\dir"
 set USER = John
