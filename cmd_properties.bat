@@ -1,25 +1,32 @@
-:: Welcome message (comment out if not necessary)
+:: Welcome message:
 @echo Welcome user!
 
-:: Hide the report of following commands
+:: To prevent cmd from printing these commands at startup:
 @echo off
 
-:: Launch command prompt at the specified default path
+:: To launch command prompt at the specified default path:
 cd "C:\Users\username\Desktop"
 
-:: Aliases
+:://///////////////////////////////////////////////////////////////////////////
+:: ALIASES:
+::--------
 doskey ls = dir /d /o:gne $*
 doskey clear = cls
 doskey g++ = @echo Compiling using -std=c++11 -Wall -pedantic $T g++ -std=c++11 -Wall -pedantic $*
 doskey gcc = @echo Compiling using -std=c11 -Wall -pedantic $T gcc -std=c11 -Wall -pedantic $*
 
-:: Programs
+:://///////////////////////////////////////////////////////////////////////////
+:: PROGRAMS:
+::---------
 doskey chrome = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 
-:: Environment variables
-:: set NEWVAR = SOMETHING
+:://///////////////////////////////////////////////////////////////////////////
+:: ENVIRONMENT VARIABLES:
+::----------------------
 set Path = "%Path%;path\to\new\dir"
 set USER = John
+:: set NEWVAR = SOMETHING
 
-:: control flow commands: for, if, goto, call, pause.
-:: to know more type 'help <command>' for more info.
+:://///////////////////////////////////////////////////////////////////////////
+:: Control flow commands: for, if, goto, call, pause.
+:: To know more type 'help <command>' at the command prompt.
